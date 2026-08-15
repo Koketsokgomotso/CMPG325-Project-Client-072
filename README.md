@@ -12,11 +12,11 @@ This repository serves as my complete Portfolio of Evidence for the CMPG 325 sem
 The project involves designing, simulating, and documenting a fully functional computer network for Thabang Building Contractors, a construction company based in Klerksdorp. The client requires a robust, scalable, and secure network built from the assigned addressing block (172.30.46.0/23). The final solution is simulated and tested using Cisco Packet Tracer.
 
 Client Requirements & Key Challenges
-Assigned Feature: IPv4 Subnetting using VLSM (Variable Length Subnet Masking).
+   Assigned Feature: IPv4 Subnetting using VLSM (Variable Length Subnet Masking).
 
-Design Constraint: Provide internet access to the Management department even when the general Staff network is restricted (achieved via VLAN segmentation and ACLs).
+   Design Constraint: Provide internet access to the Management department even when the general Staff network is restricted (achieved via VLAN segmentation and ACLs).
 
-Change Request (CR2): The client has taken over an additional floor/area. The network design must be scalable to accommodate this new space with minimal disruption.
+   Change Request (CR2): The client has taken over an additional floor/area. The network design must be scalable to accommodate this new space with minimal disruption.
 
 🛠️ Technologies & Protocols Used
 
@@ -36,11 +36,11 @@ Change Request (CR2): The client has taken over an additional floor/area. The ne
 Repository Structure
 This repository is organized to clearly document every phase of the project lifecycle, from initial analysis to final testing.
 Folder	Description
-01_Client_Requirements	Analysis of the client brief, background, constraints, and Change Request CR2.
-02_Network_Design	Physical and Logical topology diagrams, VLAN design, and justification of design decisions.
-03_IP_Addressing_Plan	Detailed VLSM calculation tables, subnet allocations, and the addressing scheme.
-04_Packet_Tracer	The final working .pkt file and exported configurations for routers and switches.
-05_Testing_Evidence	Screenshots of ping tests, extended ACL verifications, and troubleshooting logs.
+   01_Client_Requirements	Analysis of the client brief, background, constraints, and Change Request CR2.
+   02_Network_Design	Physical and Logical topology diagrams, VLAN design, and justification of design decisions.
+   03_IP_Addressing_Plan	Detailed VLSM calculation tables, subnet allocations, and the addressing scheme.
+   04_Packet_Tracer	The final working .pkt file and exported configurations for routers and switches.
+   05_Testing_Evidence	Screenshots of ping tests, extended ACL verifications, and troubleshooting logs.
 
 Testing Summary
     Connectivity: End-to-end connectivity verified across all VLANs.
