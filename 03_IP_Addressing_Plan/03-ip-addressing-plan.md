@@ -7,7 +7,7 @@
 ## 2. Method
 
 Subnets were sized to each group's estimated host count, then allocated in
-descending order of size (largest first) — the standard VLSM approach that
+descending order of size (largest first) ,the standard VLSM approach that
 minimises wasted address space compared with a single fixed subnet mask
 across all VLANs.
 
