@@ -32,7 +32,7 @@ floor the client has taken over.
 general staff (for example, during working hours, or as a general policy) while
 guaranteeing that the Management VLAN retains internet access at all times.
 
-**Design implication:** this cannot be solved by VLAN separation alone — it
+**Design implication:** this cannot be solved by VLAN separation alone,it
 requires an access control list (ACL) on the edge router that explicitly
 permits the Management subnet's traffic to the WAN interface *before* any
 deny/restriction rule that applies to other staff VLANs. See
@@ -47,7 +47,7 @@ deny/restriction rule that applies to other staff VLANs. See
 physical floor, without changing the client's assigned addressing block
 (172.30.46.0/23) and without disrupting the existing ground-floor VLANs.
 
-**Design implication:** the VLSM plan was built with this in mind — the
+**Design implication:** the VLSM plan was built with this in mind. The
 addressing plan allocates a dedicated subnet for the new floor from the same
 /23 block, and enough of the block is left unallocated to accommodate further
 growth if needed. See [`03-ip-addressing-plan.md`](03-ip-addressing-plan.md).
