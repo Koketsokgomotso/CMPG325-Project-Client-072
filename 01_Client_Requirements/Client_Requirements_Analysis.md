@@ -55,8 +55,7 @@ growth if needed. See [`03-ip-addressing-plan.md`](03-ip-addressing-plan.md).
 ## 5. Identified departments / traffic groups
 
 Based on a typical construction contractor's office structure, the following
-functional groups were identified for VLAN segmentation. (Adjust these if your
-lecturer-issued brief specifies different department names or headcounts.)
+functional groups were identified for VLAN segmentation. 
 
 | Group | Function |
 |---|---|
@@ -70,7 +69,7 @@ lecturer-issued brief specifies different department names or headcounts.)
 
 ## 6. Assigned technical challenge
 
-**IPv4 Subnetting (VLSM addressing plan)** — Intermediate difficulty. The
+**IPv4 Subnetting (VLSM addressing plan)**, Intermediate difficulty. The
 project must configure, verify, and demonstrate a VLSM addressing plan within
 the client network, and be able to explain what was configured, why it is
 appropriate, and how it was verified.
