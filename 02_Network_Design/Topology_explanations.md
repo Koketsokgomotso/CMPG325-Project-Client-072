@@ -83,7 +83,7 @@ Rather than requesting new address space, the first-floor expansion:
 - Does not alter any existing ground-floor VLAN or subnet, the original
   design continues to function unchanged.
 
-## 6. Key design decisions (for the video defence)
+## 6. Key design decisions 
 
 - **VLSM over a single flat subnet**: departments have very different host
   counts (10–50), so VLSM avoids wasting addresses on small departments while
