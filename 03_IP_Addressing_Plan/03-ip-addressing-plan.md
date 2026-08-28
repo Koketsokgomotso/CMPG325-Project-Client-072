@@ -62,16 +62,4 @@ which directly supports the appropriateness argument required by the brief.
 - Significant free space remains in the block for future subnets without
   needing to touch the client's assigned 172.30.46.0/23 range.
 
-## 7. How to verify (for testing evidence / video demo)
 
-1. Confirm each VLAN interface (SVI or subinterface) is configured with the
-   correct network address and subnet mask from the table above.
-2. Confirm DHCP pools per VLAN exclude the gateway address and match the
-   usable range.
-3. `ping` between two hosts within the same VLAN should succeed.
-4. `ping` between hosts in different VLANs should succeed only via the
-   router/L3 switch (confirms inter-VLAN routing works).
-5. `show ip route` on the router/L3 switch confirm all subnets appear as
-   connected routes.
-6. Capture `ipconfig`/`show running-config` screenshots as evidence for the
-   GitHub portfolio.
