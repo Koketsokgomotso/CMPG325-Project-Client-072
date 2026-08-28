@@ -62,8 +62,8 @@ Notes on the convention:
 
 Implemented as an **extended ACL on the edge router's WAN-facing interface**:
 
-1. `permit` — Management subnet (172.30.46.192/27) → any destination, any time.
-2. `deny`/`permit` (time-based or general policy) — remaining staff VLANs, per the
+1. `permit`Management subnet (172.30.46.192/27) → any destination, any time.
+2. `deny`/`permit` (time-based or general policy) remaining staff VLANs, per the
    restriction policy in effect.
 3. Rule order matters: the Management `permit` statement must be evaluated
    **before** any broader deny rule, otherwise Management traffic would be
