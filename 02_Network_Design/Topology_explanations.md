@@ -54,7 +54,7 @@ trunk links so that untagged traffic never lands on a live data VLAN.
 
 Notes on the convention:
 
-- **VLAN 1** is never assigned to an access port — left as the unused factory default, per standard hardening practice.
+- **VLAN 1** is never assigned to an access port, left as the unused factory default, per standard hardening practice.
 - **VLAN 99 (NATIVE)** carries no host traffic; it is configured as the native VLAN on every trunk port between switches and the core, so accidental untagged frames don't land on a real subnet.
 - The default gateway for each VLAN is the first usable address in its subnet, and is configured as the router subinterface / switch virtual interface (SVI) address.
 
@@ -80,7 +80,7 @@ Rather than requesting new address space, the first-floor expansion:
 - Uses a subnet carved from the *existing* 172.30.46.0/23 block (172.30.46.64/26).
 - Connects via a new access switch trunked back to the core switch, so it
   inherits the same inter-VLAN routing, DHCP, and ACL policy already in place.
-- Does not alter any existing ground-floor VLAN or subnet — the original
+- Does not alter any existing ground-floor VLAN or subnet, the original
   design continues to function unchanged.
 
 ## 6. Key design decisions (for the video defence)
