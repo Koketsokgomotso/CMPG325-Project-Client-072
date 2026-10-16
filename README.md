@@ -5,8 +5,17 @@ Student Number: 44419465
 Project ID: CMPG325-2026-072
 Client ID: CLI-072
 Submission Date: 16 October 2026
-Project Overview
 
+All deliverables are complete:
+- ✅ Packet Tracer project (.pkt)
+- ✅ GitHub portfolio of evidence
+- ✅ Technical report
+- ✅ 15–20 minute video demonstration
+- ✅ All testing evidence
+
+See (FINAL_SUBMISSION.md) for full details.
+
+Project Overview
 This repository serves as my complete Portfolio of Evidence for the CMPG 325 semester project.
 
 The project involves designing, simulating, and documenting a fully functional computer network for Thabang Building Contractors, a construction company based in Klerksdorp. The client requires a robust, scalable, and secure network built from the assigned addressing block (172.30.46.0/23). The final solution is simulated and tested using Cisco Packet Tracer.
